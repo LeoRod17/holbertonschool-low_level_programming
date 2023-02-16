@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-printf("%c" sizeof(char,int,long));
+printf("with proper grammar, but the outcome is a piece of art, ");
 return (0);
 }
