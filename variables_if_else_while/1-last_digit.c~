@@ -1,0 +1,29 @@
+#include <stdlib.h>
+#include <time.h>
+/* more headers goes there */
+/**
+ *main - Entry point
+ *
+ *Return: 0
+ */
+int main(void)
+{
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	Ln= n % 10
+	  if(Ln > 5)
+	    {
+	     printf();
+	    }
+	if(Ln < 6)
+	  {
+	   printf();
+	  }
+	if(Ln == 0)
+	  {
+	   printf();
+	  }
+	return (0);
+}
