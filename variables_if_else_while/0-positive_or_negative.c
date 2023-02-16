@@ -11,11 +11,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if(n > 0)
 	  {
-	    printf(n, "is positive\n")
+	    printf("%i %u \n", n, "is positive\n");
 	  }
 	else
 	  {
-	    printf(n, "is negative\n")
+	    printf("%i %u \n", n, "is negative\n");
 	  }
 	return (0);
 }
