@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-  printf("%c",sizeof(char));
+printf("%c \n", sizeof(char));
 return (0);
 }
