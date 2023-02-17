@@ -14,7 +14,10 @@ if(i == 65 || i == 71)
 {
 i++;
 }
+else
+{
 putchar(i);
+}
 }
 putchar('\n');
 return (0);
