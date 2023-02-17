@@ -10,9 +10,9 @@ int main(void)
 int i;
 for (i = 97; i < 123; i++)
 {
-if(i != 65 && i != 71)
+if(i != 65 || i != 71)
 {
-  putchar(i);
+putchar(i);
 }
 }
 putchar('\n');
