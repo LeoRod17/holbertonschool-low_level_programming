@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-for(int i=41; i<60;i++)
+for(int i=41; i<60; i++)
 {
 putchar(i);
 }
-puchar("\n");
+putchar("\n");
 }
