@@ -19,7 +19,7 @@ if (Ln > 5)
 printf("Last digit of %d is", n);
 printf(" %d and is greater than 5\n", Ln);
 }
-if (Ln < 6 && > 0)
+if (Ln < 6 && Ln > 0)
 {
 printf("Last digit of %d is", n);
 printf(" %d and is less than 6 and not 0 \n", Ln);
