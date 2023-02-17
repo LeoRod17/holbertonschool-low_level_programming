@@ -17,7 +17,7 @@ Ln= n % 10;
 if (Ln > 5)
 {
 printf("Last digit of %d", n);
-printf("%d and is greater than 5\n", Ln);
+printf("  and %d is greater than 5\n", Ln);
 }
 if (Ln < 6)
 {
