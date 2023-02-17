@@ -8,12 +8,12 @@
 int main(void)
 {
 int i;
-int c=44;
-for(i = 48; i < 58; i++)
+int c = 44;
+for (i = 48; i < 58; i++)
 {
 putchar(i);
 putchar(c);
+putchar('\n')
 }
-putchar('\n');
 return (0);
 }
