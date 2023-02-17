@@ -12,6 +12,6 @@ for (i = 48; i < 58; i++)
 {
 putchar(i);
 }
-puthcar('\n');
+putchar('\n');
 return (0);
 }
