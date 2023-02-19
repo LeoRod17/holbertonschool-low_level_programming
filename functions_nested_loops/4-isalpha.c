@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 /**
  *_isalpha - Indicates if is a lleter or somethig else
  *
