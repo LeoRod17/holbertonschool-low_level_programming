@@ -12,5 +12,4 @@ for (c = 0; c <9; c++)
 print_alphabet();
 }
 putchar('\n');
-return (0);
 }
