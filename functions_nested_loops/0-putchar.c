@@ -7,7 +7,7 @@
  */
 
 
-void _putchar(void){
+int _putchar(char c){
 int i;
 for (i = 95; i != 115; i++)
 {
@@ -42,5 +42,6 @@ i = 113;
 }
 }
 putchar('\n');
+ return (0);
 }
 
