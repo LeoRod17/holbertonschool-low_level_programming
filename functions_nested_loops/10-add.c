@@ -4,7 +4,7 @@
  *
  *@a: - this is the first value in the sum that is decided in main.c
  *
- *@b - this is the second value in the sum that is decided in main.c
+ *@b: - this is the second value in the sum that is decided in main.c
  *
  *Return: 0
  */

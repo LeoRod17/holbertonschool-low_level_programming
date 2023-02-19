@@ -3,7 +3,7 @@
 /**
  *_abs - we use it to get the absolute value of an interger
  *
- * x - is the value of the int I receive
+ *@x: - is the value of the int I receive
  *Return: 0
  */
 
