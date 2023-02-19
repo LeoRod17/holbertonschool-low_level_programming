@@ -1,5 +1,16 @@
 #include <stdio.h>
 
+void print_alphabet(void)
+{
+int a;
+for (a = 97; a < 123; a++)
+{
+putchar(a);
+}
+putchar('\n');
+}
+
+
 void PrintPut(void){
 int i;
 for (i = 95; i != 115; i++)
@@ -33,16 +44,6 @@ if (i == 97)
 {
 i = 113;
 }
-}
-putchar('\n');
-}
-
-void print_alphabet(void)
-{
-int a;
-for (a = 97; a < 123; a++)
-{
-putchar(a);
 }
 putchar('\n');
 }
