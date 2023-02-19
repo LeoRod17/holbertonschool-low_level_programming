@@ -8,8 +8,8 @@
  *Return: 0
  */
 
-int _abs(int c)
+int _abs(int)
 {
-int a = abs(c);
+int a = abs(a);
 return (a);
 }
