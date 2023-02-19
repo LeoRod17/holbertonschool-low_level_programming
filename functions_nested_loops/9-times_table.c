@@ -13,10 +13,10 @@ int x = 0;
 int res;
 for (; x < 9; x++)
 {
-for(; a < 9; a++)
+for (; a < 9; a++)
 {
 res = a * x;
-putchar(res);
+_putchar(res);
 }
 putchar('\n');
 }
