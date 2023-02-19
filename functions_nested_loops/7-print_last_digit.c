@@ -8,9 +8,9 @@
 
 int print_last_digit(int num)
 {
+int last;
 if(num < 0)
 {
-int last;
 int a;
 a=abs(num);
 last = a % 10;
