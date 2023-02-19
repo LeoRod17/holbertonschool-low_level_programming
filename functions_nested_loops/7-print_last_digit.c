@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  *print_last_digit - this prints the las digit of a number
  *@num: - the number which I would get the last digit
@@ -10,6 +10,7 @@ int print_last_digit(int num)
 {
 if(num < 0)
 {
+int last;
 int a;
 a=abs(num);
 last = a % 10;
@@ -18,7 +19,6 @@ return (last);
 }
 else
 {
-int last;
 last = num % 10;
 _putchar(last);
 return (last);
