@@ -16,7 +16,9 @@ for (; x < 9; x++)
 for (; a < 9; a++)
 {
 res = a * x;
-_putchar(res);
+putchar(res);
+putchar(',');
+putchar(' ');
 }
 putchar('\n');
 }
