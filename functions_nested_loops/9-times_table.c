@@ -11,14 +11,12 @@ void times_table(void)
 int a;
 int x;
 int res;
-char pri;
 for (x = 0; x < 9; x++)
 {
 for (a = 0 ; a < 9; a++)
 {
 res = a * x;
-pri = res + '0';
-putchar(pri);
+putchar(res + "0");
 putchar(',');
 putchar(' ');
 }
