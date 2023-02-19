@@ -1,12 +1,13 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  *_abs - we use it to get the absolute value of an interger
  *
- *Return: 0
+ *Return: a
  */
 
-int _abs(int x)
+int _abs (int x)
 {
-  int a=abs(x);
-  return a;
+int a = abs(x);
+return a;
 }
