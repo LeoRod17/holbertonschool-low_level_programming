@@ -1,0 +1,6 @@
+#include "main.h"
+/**
+ *_isalpha - Indicates if is a lleter or somethig else
+ *
+ *Return: 0
+ */
