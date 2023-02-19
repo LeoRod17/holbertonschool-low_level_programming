@@ -7,7 +7,7 @@
  */
 
 
-void PrintPut(void){
+void _putchar(void){
 int i;
 for (i = 95; i != 115; i++)
 {
