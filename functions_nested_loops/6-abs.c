@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- *_abs - we use it to get the absolute value of an interger
+ *_abs(int x) - we use it to get the absolute value of an interger
  *
- *x - is the value that I receive
+ * x - is the value that I receive
  *
  *Return: 0
  */
