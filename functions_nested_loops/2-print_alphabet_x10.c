@@ -7,9 +7,13 @@
 
 void print_alphabet_x10(void){  
 int c;
-for (c = 0; c <9; c++)
+int a;
+for (c = 0; c < 9; c++)
 {
-print_alphabet();
+for(a = 97; a < 123; a++)
+{
+putchar(a);
+}
 }
 putchar('\n');
 }
