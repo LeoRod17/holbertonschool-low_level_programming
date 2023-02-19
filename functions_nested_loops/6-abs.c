@@ -3,11 +3,11 @@
 /**
  *_abs - we use it to get the absolute value of an interger
  *
- *Return: a
+ *Return: 0
  */
 
-int _abs (int x)
+int _abs(int x)
 {
 int a = abs(x);
-return a;
+ return (a);
 }
