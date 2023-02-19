@@ -1,4 +1,4 @@
-#includes "main.h"
+#include "main.h"
 
 /**
  *times_table - Prints the multiplication table
@@ -20,5 +20,4 @@ putchar(res);
 }
 putchar('\n');
 }
-return (0);
 }
