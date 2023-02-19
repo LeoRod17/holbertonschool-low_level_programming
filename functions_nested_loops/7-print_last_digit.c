@@ -8,19 +8,16 @@
 
 int print_last_digit(int num)
 {
-int last;
 if(num < 0)
 {
 int a;
-a=abs(num);
-last = a % 10;
-_putchar(last);
+a = abs(num);
+_putchar(a % 10);
 return (last);
 }
 else
 {
-last = num % 10;
-_putchar(last);
+_putchar(num % 10);
 return (last);
 }
 }
