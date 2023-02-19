@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *main - Entry point
+ *main -  Entry point
  *
  *Return: 0
  */
 
-
-int _putchar(char c){
+int main(void){
 putchar('_');
 putchar('p');
 putchar('u');
