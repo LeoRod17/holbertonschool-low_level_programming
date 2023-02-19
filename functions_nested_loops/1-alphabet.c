@@ -5,8 +5,12 @@
  *
  *Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
-return (0);
+int a;
+for (a = 97; a < 123; a++)
+{
+putchar(a);
+}
+putchar('\n');
 }
