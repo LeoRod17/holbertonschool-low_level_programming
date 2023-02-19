@@ -41,7 +41,7 @@ void print_alphabet(void){
 int a;
 for (a = 97; a < 123; a++)
 {
-puthcar(a);
+putchar(a);
 }
- putchar('\n');
+putchar('\n');
 }
