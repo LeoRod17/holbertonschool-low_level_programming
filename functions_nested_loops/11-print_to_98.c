@@ -21,7 +21,7 @@ void print_to_98(int n)
 {
 if(n < 98)
 {
-while(n < 98)
+while(n < 99)
 {
 print(n);
 putchar(',');
@@ -31,11 +31,13 @@ n++;
 }
 if(n > 98)
 {
-for (;n >98; n--)
+for (;n >99; n--)
 {
 print(n);
 putchar(',');
 putchar(' ');
 }
 }
+if(n == 98)
+print(n);
 }
