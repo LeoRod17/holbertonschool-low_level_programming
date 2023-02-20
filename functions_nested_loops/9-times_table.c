@@ -18,7 +18,7 @@ for (a = 0 ; a < 10; a++)
 {
 res = a * x;
 pri=res;
-putchar(pri - '0');
+putchar(pri + '0');
 putchar(',');
 putchar(' ');
 putchar(' ');
