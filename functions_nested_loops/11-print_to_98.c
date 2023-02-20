@@ -11,7 +11,7 @@ if(n < 98)
 {
 while(n < 98)
 {
-putchar(n);
+putchar('0' + n);
 putchar(',');
 putchar(' ');
 }
@@ -20,7 +20,7 @@ if(n > 98)
 {
 for (;n >98; n--)
 {
-putchar(n);
+putchar('0' + n);
 putchar(',');
  putchar(' ');
 }
