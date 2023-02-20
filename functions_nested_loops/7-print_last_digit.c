@@ -9,19 +9,10 @@
 int print_last_digit(int num)
 {
 int last;
-if(num < 0)
-{
 int a;
 a = abs(num);
 last = a % 10;
-return (a);
 putchar(a % 10 + '0');
-}
-else
-{
-last= num % 10;
-putchar(num % 10 +'0');
-return (last);
-putchar(num % 10 + '0');
-}
+return (a);
+
 }
