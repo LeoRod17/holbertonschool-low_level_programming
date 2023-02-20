@@ -12,19 +12,20 @@ int h1;
 int h2;
 int m1;
 int m2;
-for(h1 = 48; h1 < 51; h1++)
+for (h1 = 48; h1 < 51; h1++)
 {
-for(h2 = 48; h2 < 58; h2++)
+for (h2 = 48; h2 < 58; h2++)
 {
-for(m1 = 48; m1 < 58; m1++)
+for (m1 = 48; m1 < 58; m1++)
 {
-for(m2 = 48; m2 < 58; m2++)
+for (m2 = 48; m2 < 58; m2++)
 {
 putchar(h1);
 putchar(h2);
 putchar(':');
 putchar(m1);
 putchar(m2);
+putchar('\n');
 }
 }
 }
