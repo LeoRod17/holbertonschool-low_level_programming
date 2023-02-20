@@ -1,5 +1,5 @@
 #include "main.h"
-77;30603;0c/**
+/**
  *print - a function that I use to print the proyect
  *
  *@p: - te value to print
