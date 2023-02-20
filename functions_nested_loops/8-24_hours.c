@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  *jack_bauer - this function prints every minute and hour of the day
  *
  *Return: 0
