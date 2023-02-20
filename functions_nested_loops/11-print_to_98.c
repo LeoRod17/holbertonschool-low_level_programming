@@ -40,7 +40,7 @@ if(n > 98)
 {
 for (;n >97; n--)
 {
-if(n =! 98)
+if(n != 98)
 {
 print(n);
 putchar(',');
