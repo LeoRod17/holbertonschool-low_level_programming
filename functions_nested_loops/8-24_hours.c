@@ -25,6 +25,13 @@ putchar(':');
 putchar(m1);
 putchar(m2);
 putchar('\n');
+if (h1 == 50 && h2 == 52)
+{
+h1= 56;
+h2= 60;
+m1=60;
+m2=60;
+}
 }
 }
 }
