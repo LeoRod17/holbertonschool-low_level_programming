@@ -42,5 +42,6 @@ putchar(' ');
 }
 }
 if(n == 98)
-print(n);
+putchar(n +'0');
+putchar(' ');
 }
