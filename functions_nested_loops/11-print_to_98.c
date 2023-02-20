@@ -11,6 +11,12 @@
 
 void print(int p)
 {
+if(p < 0)
+{
+putchar('-');
+p = -p;
+}
+  
 if (p / 10)
 print(p / 10);
 
@@ -32,6 +38,7 @@ putchar(' ');
 else
 {
 print(n);
+putchar(' ');
 }
 n++;
 }
@@ -48,6 +55,7 @@ putchar(' ');
 }
 else
 print(n);
+putchar(' ');
 }
 }
 if(n == 98)
