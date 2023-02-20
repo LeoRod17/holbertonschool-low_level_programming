@@ -23,19 +23,31 @@ if(n < 98)
 {
 while(n < 99)
 {
+if(n != 98)
+{
 print(n);
 putchar(',');
 putchar(' ');
+}
+else
+{
+print(n);
+}
 n++;
 }
 }
 if(n > 98)
 {
-for (;n >99; n--)
+for (;n >97; n--)
+{
+if(n =! 98)
 {
 print(n);
 putchar(',');
 putchar(' ');
+}
+else
+print(n);
 }
 }
 if(n == 98)
