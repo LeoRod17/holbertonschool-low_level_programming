@@ -25,7 +25,7 @@ putchar(':');
 putchar(m1);
 putchar(m2);
 putchar('\n');
-if (h1 == 50 && h2 == 51)
+ if (h1 == 50 && h2 == 51 && m1 == 57 && m2 == 57)
 {
 h1 = 60;
 h2 = 60;
