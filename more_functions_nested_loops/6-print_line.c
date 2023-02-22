@@ -15,6 +15,6 @@ _putchar(95);
 }
 if (n <= 0)
 {
-_putchar(' ');
+_putchar('\n');
 }
 }
