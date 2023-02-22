@@ -5,4 +5,4 @@ NAME = school
 all:
 	cc -c -o obj main.c
 	cc -c -o obj school.c
-	cc obj -o Name
+	cc obj -o name
