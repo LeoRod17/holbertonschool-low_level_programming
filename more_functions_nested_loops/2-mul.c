@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  *mul - what mul is going to do is to multiplicate a and b
  *@a: - a number that is going to be multiplied
