@@ -16,7 +16,7 @@ for (a = 48; a < 50; a++)
 {
 for (i = 48; i < 58; i++)
 {
-_puthcar(a);
+_putchar(a);
 _putchar(i);
 if(a == 49 && i == 52)
 {
