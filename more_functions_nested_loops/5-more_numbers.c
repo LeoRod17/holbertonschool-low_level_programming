@@ -9,10 +9,10 @@ void more_numbers(void)
 {
 int i;
 int a;
-int x=0;
-while(x<9)
+int x = 0;
+while (x<9)
 {
-for (a = 48; a < 50)
+for (a = 48; a < 50; a++)
 {
 for (i = 48; i < 58; i++)
 {
