@@ -1,8 +1,8 @@
-#includes "main.h"
+#include "main.h"
 /**
- *print_diagonal
- *
- *Return:
+ *print_diagonal - a function that prints on diagonal
+ *@n: - the number we get from the main
+ *Return: 0
  */
 
 void print_diagonal(int n)
