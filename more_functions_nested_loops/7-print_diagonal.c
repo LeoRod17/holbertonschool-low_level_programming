@@ -11,6 +11,7 @@ int a;
 for (a = 1; a <= n; a++)
 {
 _putchar(92);
+_putchar('\n');
 }
 if (n > 0)
 {
