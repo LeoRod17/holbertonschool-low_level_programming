@@ -21,6 +21,8 @@ for (x = 0; x < 10; x++)
 for (a = 1 ; a < 10; a++)
 {
   res = a * x;
+  _putchar(',');
+  _putchar(' ');
   if( res <= 9)
     {
       _putchar(' ');
@@ -29,10 +31,7 @@ for (a = 1 ; a < 10; a++)
     {
       _putchar((res / 10) + 48);
     }
-res = a * x;
 _putchar(res % 10 + 48);
-_putchar(',');
-_putchar(' ');
 }
 _putchar('\n');
 }
