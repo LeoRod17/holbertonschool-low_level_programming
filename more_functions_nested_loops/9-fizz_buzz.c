@@ -8,21 +8,22 @@
 
 int main(void)
 {
+int i;
 for (i = 0; i < 99; i++)
 {
 if (i % 3 == 0)
 {
-put("Fizz");
+printf("Fizz");
 _putchar(' ');
 }
-else if(i % 5 == 0)
+else if (i % 5 == 0)
 {
-put("Buzz");
+printf("Buzz");
 _putchar(' ');
 }
-else if(i % 3 == 0 && i % 5 == 0)
+else if (i % 3 == 0 && i % 5 == 0)
 }
-put("FizzBuzz");
+printf("FizzBuzz");
 _putchar(' ');
 }
 else
