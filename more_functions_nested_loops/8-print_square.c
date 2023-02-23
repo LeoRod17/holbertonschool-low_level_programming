@@ -12,7 +12,6 @@ int b;
 for (b = 1; b < size; b++)
 {
 _putchar('\n');
-_putchar(35);
 for (a = 1; a < size; a++)
 {
 _putchar(35);
