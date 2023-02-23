@@ -14,8 +14,8 @@ for (b = 0; b < size; b++)
 for (a = 0; a < size; a++)
 {
 _putchar(35);
-_putchar('\n');
 }
+_putchar('\n');
 }
 }
 
