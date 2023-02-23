@@ -20,7 +20,7 @@ for (x = 0; x < 10; x++)
 for (a = 0 ; a < 10; a++)
 {
 res = a * x;
-_putchar(res + 48);
+_putchar(res % 10 + 48);
 _putchar(',');
 _putchar(' ');
 }
