@@ -9,7 +9,7 @@
 int main(void)
 {
 int i;
-for (i = 0; i < 99; i++)
+for(i = 0; i < 99; i++)
 {
 if (i % 3 == 0)
 {
@@ -32,4 +32,5 @@ printf("%d", i);
 _putchar(' ');
 }
 }
+return (0);
 }
