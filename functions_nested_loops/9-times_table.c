@@ -17,8 +17,18 @@ int x;
 int res;
 for (x = 0; x < 10; x++)
 {
+  _putchar('0');
 for (a = 0 ; a < 10; a++)
 {
+  res = a * x;
+  if( res <= 9)
+    {
+      _putchar(' ');
+    }
+  else
+    {
+      _putchar((res / 10) + 48);
+    }
 res = a * x;
 _putchar(res % 10 + 48);
 _putchar(',');
