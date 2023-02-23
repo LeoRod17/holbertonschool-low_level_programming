@@ -27,7 +27,7 @@ _putchar(35);
 }
 else
 {
-putchar(32);
+_putchar(32);
 }
 }
 s--;
