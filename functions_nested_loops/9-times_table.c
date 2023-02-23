@@ -18,7 +18,7 @@ int res;
 for (x = 0; x < 10; x++)
 {
   _putchar('0');
-for (a = 0 ; a < 10; a++)
+for (a = 1 ; a < 10; a++)
 {
   res = a * x;
   if( res <= 9)
