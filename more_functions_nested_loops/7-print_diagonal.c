@@ -12,6 +12,7 @@ for (a = 1; a <= n; a++)
 {
 _putchar(92);
 _putchar('\n');
+_putchar(' ');
 }
 if (n > 0)
 {
