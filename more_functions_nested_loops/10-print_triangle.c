@@ -29,9 +29,9 @@ else
 {
 putchar(' ');
 }
+}
 s--;
 _putchar('\n');
-}
 }
 }
 }
