@@ -3,7 +3,6 @@
 /**
  *times_table - Prints the multiplication table
  *
- *print - a function to help me print the value of res
  *
  *@n: - value of were i am in the table to help me print
  *
@@ -17,20 +16,28 @@ int x;
 int res;
 for (x = 0; x < 10; x++)
 {
-  _putchar('0');
+_putchar('0');
 for (a = 1 ; a < 10; a++)
 {
-  res = a * x;
-  _putchar(',');
-  _putchar(' ');
-  if( res <= 9)
-    {
-      _putchar(' ');
-    }
-  else
-    {
-      _putchar((res / 10) + 48);
-    }
+if(a != 9)
+{
+res = a * x;
+_putchar(',');
+_putchar(' ');
+}
+else
+{
+res = a * x;
+_putchar(' ');
+}
+if( res <= 9)
+{
+_putchar(' ');
+}
+else
+{
+_putchar((res / 10) + 48);
+}
 _putchar(res % 10 + 48);
 }
 _putchar('\n');
