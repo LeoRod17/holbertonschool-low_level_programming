@@ -39,11 +39,13 @@ else
  _putchar((n / 10) + 48);
 }
 _putchar(n % 10 + 48);
+_putchar(' ');
+_putchar(' '); 
 }
 if(n == 98)
 {
-_putchar((n / 10 ) + 48);
-_putchar(n % 10);
+_putchar(57);
+_putchar(58);
 putchar(' ');
 }
 }
