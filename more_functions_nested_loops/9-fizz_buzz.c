@@ -16,12 +16,12 @@ if (i % 3 == 0)
 put("Fizz");
 _putchar(' ');
 }
-if else (i % 5 == 0)
+else if(i % 5 == 0)
 {
 put("Buzz");
 _putchar(' ');
 }
-if else (i % 3 == 0 && i % 5 == 0)
+else if(i % 3 == 0 && i % 5 == 0)
 }
 put("FizzBuzz");
 _putchar(' ');
