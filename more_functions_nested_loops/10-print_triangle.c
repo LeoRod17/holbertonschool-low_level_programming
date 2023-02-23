@@ -17,7 +17,7 @@ _putchar('\n');
 }
 else
 {
-for (a = 0; a <= size; a++)
+for (a = 0; a < size; a++)
 {
 for (b = 0; b < size; b++)
 {
@@ -27,7 +27,7 @@ _putchar(35);
 }
 else
 {
-putchar(' ');
+putchar(32);
 }
 }
 s--;
