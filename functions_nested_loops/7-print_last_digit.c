@@ -12,7 +12,7 @@ int last;
 int a;
 a = abs(num);
 last = a % 10;
-putchar(last + 48);
+_putchar(last + 48);
 return (last);
 
 }
