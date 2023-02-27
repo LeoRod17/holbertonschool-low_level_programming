@@ -6,7 +6,7 @@
  *
  */
 
-void rev_string(char *s);
+void rev_string(char *s)
 {
 int a;
 int b;
@@ -16,5 +16,5 @@ for (b = a - 1; b >= 0; b--)
 {
 rev = s[b];
 }
-s=rev;
+s = rev;
 }
