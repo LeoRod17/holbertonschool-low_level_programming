@@ -1,12 +1,12 @@
 #include "main.h"
 #include <string.h>
 /**
- *rev_string - a string that prints reverse
+ *print_rev - a string that prints reverse
  *@s: - the string to receive
  *
  */
 
-void rev_string(char *s)
+void print_rev(char *s)
 {
 int a;
 int b;
