@@ -4,7 +4,7 @@
  *_strlen - a function that shows the prints the lenght of the array
  *
  *@s: - the array
- *Return: 0 
+ *Return: 0
  */
 
 int _strlen(char *s)
