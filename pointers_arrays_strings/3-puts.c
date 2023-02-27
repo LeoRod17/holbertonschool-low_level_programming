@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *void _puts - a funcion that print the count
+ *_puts - a funcion that print the count
  *
  *@str: - the string to count
  */
 void _puts(char *str)
 {
 puts(str);
-_putchar(' ');
+_putchar('\n');
 }
