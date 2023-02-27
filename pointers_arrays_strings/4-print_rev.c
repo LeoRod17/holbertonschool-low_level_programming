@@ -15,4 +15,5 @@ for(b = -1; b < a; a--)
 {
 _putchar(s[a]);
 }
+_putchar('\n');
 }
