@@ -6,7 +6,7 @@
  *@s: - the array 
  */
 
-int _strlen(char *s);
+int _strlen(char *s)
 {
 int a;
 a = strlen(*s);
