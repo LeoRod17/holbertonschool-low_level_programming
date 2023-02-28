@@ -21,6 +21,8 @@ _putchar(str[a]);
 else
 {
 _putchar(str[n]);
+n++;
 }
 }
+_putchar('\n');
 }
