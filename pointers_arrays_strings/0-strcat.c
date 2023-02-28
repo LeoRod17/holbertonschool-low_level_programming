@@ -2,9 +2,9 @@
 #include <string.h>
 /**
  **_strcat - a function that concatenates 
- *@dest: - 
- *@src: -
- *Return: a char
+ *@dest: - the second string
+ *@src: - the first string
+ *Return: the combined string of dest and src
  */
 
 char *_strcat(char *dest, char *src)
@@ -13,8 +13,8 @@ int i;
 int a;
 int b;
 int c = 0;
-a = strlon(src);
-b = strlon(dest);
+a = strlen(src);
+b = strlen(dest);
 int s = a + b;
 for (i = 0; i < s; i++)
 {
