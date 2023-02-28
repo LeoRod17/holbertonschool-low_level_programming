@@ -16,7 +16,7 @@ int s;
 int c = 0;
 a = strlen(src);
 b = strlen(dest);
-s = a + b
+s = a + b;
 for (i = 0; i < s; i++)
 {
 if (i > b)
