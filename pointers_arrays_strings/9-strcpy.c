@@ -13,7 +13,7 @@ int a = strlen(src);
 int i;
 for (i = 0; i < a; i++)
 {
-src[i] = dest[i];
+src[i] = dest;
 }
 return (dest);
 }
