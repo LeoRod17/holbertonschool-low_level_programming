@@ -9,9 +9,9 @@
 
 void print_array(int *a, int n)
 {
-int s = strlen(a);
+int s = sizeof(a);
 for (; n < s; n++)
 {
-putchar("%d, "a[n]);
+putchar("%d, ", a[n]);
 }
 }
