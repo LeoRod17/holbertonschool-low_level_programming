@@ -9,6 +9,10 @@
 
 char *_strcpy(char *dest, char *src)
 {
-strcpy(src,dest);
+int a = strlen(src);
+for(int i = 0; i < a; i++)
+{
+src[i] = dest[i]
+}
 return (dest);
 }
