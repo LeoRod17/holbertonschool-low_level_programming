@@ -9,9 +9,17 @@
 
 void print_array(int *a, int n)
 {
-int s = sizeof(a);
-for (; n < s; n++)
+int i;
+for (i = 0; n <= i; i++)
 {
-printf("%d, ", a[n]);
+if(i != n)
+{
+printf("%d, ", a[i]);
 }
+else
+{
+printf("%d", a[i]);
+}
+}
+_putchar('\n');
 }
