@@ -14,7 +14,7 @@ int a = strlen(str);
 int n = (a - 1) / 2;
 for (i = a / 2; i < a; i++)
 {
-if (i % 2 = 0)
+if (i % 2 == 0)
 {
 _putchar(str[a]);
 }
