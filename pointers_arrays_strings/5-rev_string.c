@@ -13,14 +13,14 @@ int b;
 int c=0;
 int i;
 a = strlen(s);
-char rev[1000];
+char r[1000];
 for (b = a - 1; b >= 0; b--)
 {
-rev[c] = s[b];
+r[c] = s[b];
 c++;
 }
 for (i = 0; i <= a; i++)
 {
-s[i] = rev[i];
+s[i] = r[i];
 }
 }
