@@ -7,21 +7,21 @@
  *Return: a char
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 int i;
 int a;
 int b;
 int c = 0;
-a = srtlon(src);
-b = srtlon(dest);
+a = strlon(src);
+b = strlon(dest);
 int s = a + b;
 for (i = 0; i < s; i++)
 {
 if (i > b)
 {
 dest[i] = src[c];
-c++
+c++;
 }
 }
 return dest;
