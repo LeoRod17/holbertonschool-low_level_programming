@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- **_strcat - a function that concatenates 
+ **_strcat - a function that concatenates
  *@dest: - the second string
  *@src: - the first string
  *Return: the combined string of dest and src
@@ -17,13 +17,10 @@ int c = 0;
 a = strlen(src);
 b = strlen(dest);
 s = a + b;
-for (i = 0; i < s; i++)
+for (i = 0; i < a; i++)
 {
-if (i > b)
-{
-dest[i] = src[c];
-c++;
+dest[b] = src[i];
+b++;
 }
-}
-return dest;
+return (dest);
 }
