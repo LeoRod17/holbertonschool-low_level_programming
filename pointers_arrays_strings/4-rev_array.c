@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *reverse_array
+ *reverse_array - a function that reverses the orden of an array of integers
  *@a: - the string 
  *@n: - the size of the string
  *
@@ -11,17 +11,13 @@ void reverse_array(int *a, int n)
 {
 int i;
 int s;
-int b;
-char r[1000];
-b = 0;
-for (s = n - 1; s >= 0; s++)
+
+for (i = 0; i <= n; i++)
 {
-r[b] = a[s];
-b++;
+printf("%d", a[i]);
 }
-for (i= 0; i <= n;i++)
+for (s = n - 1; s >= 0; s--)
 {
-a[i] = r[i];
-printf("%d",a[i]);
+printf("%d", a[i]);
 }
 }
