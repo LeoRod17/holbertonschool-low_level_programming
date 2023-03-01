@@ -21,8 +21,8 @@ for (i = 0; i < s; i++)
 {
 if (s1[i] != s2[i])
 {
-a = s1[i]-'0';
-b = s2[i]-'0';
+a = s1[i];
+b = s2[i];
 d = a - b;
 break;
 }
