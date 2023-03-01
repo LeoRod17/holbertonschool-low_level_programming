@@ -14,7 +14,7 @@ int s;
 int a;
 s = strlen(dest);
 a = strlen(dest);
-if ( n > a)
+if( n > a)
 {
 n = a;
 }
