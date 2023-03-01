@@ -24,5 +24,5 @@ b = b - r;
 s[i] = b;
 }
 }
-return s;
+return (s);
 }
