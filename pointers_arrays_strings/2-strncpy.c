@@ -20,4 +20,5 @@ for (; n < s; n++)
 {
 dest[n] = 0;
 }
+return (dest);
 }
