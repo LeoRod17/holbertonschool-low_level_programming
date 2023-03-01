@@ -19,7 +19,7 @@ for (i = 0; i < n; i++)
 {
 if (n > a)
 {
-n = a
+n = a;
 }
 dest[s] = src[i];
 s++;
