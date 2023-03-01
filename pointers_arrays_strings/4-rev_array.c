@@ -13,7 +13,7 @@ int s;
 int b;
 int i;
 int array[18];
-b = 1;
+b = 0;
 for (s = n - 1; s >= 0; s--)
 {
 array[b] = a[s];
