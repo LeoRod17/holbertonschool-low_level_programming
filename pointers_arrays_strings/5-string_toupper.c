@@ -3,8 +3,8 @@
 
 /**
  **string_toupper - a function that changed the lower cas to uppercase
- *@s: - the pointer to the string 
- *
+ *@s: - the pointer to the string
+ *Return: a char
  */
 
 char *string_toupper(char *s)
