@@ -1,5 +1,5 @@
 #include "main.h"
-0
+
 /**
  *reverse_array - a function that reverses the orden of an array of integers
  *@a: - the string
