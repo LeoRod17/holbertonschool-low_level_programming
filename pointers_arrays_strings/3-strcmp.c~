@@ -1,0 +1,13 @@
+#include "main.h"
+#include <string.h>
+
+/**
+ *_strcmp - a function that comapre two string
+ *@s1: - the first pointer to the string
+ *@s2: - the second pointer to the string
+ *Return: an int
+ */
+int _strcmp(char *s1, char *s2)
+{
+
+}
