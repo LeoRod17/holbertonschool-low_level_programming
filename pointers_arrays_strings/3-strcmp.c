@@ -31,5 +31,5 @@ else
 d = 0;
 }
 }
-return (d); 
+return (d);
 }
