@@ -13,13 +13,13 @@ int s;
 int b;
 int i;
 int array[30];
-for (s = n -1; s >= 0; s--)
+for (s = n; s >= 0; s--)
 {
 array[b] = a[s];
 b++;
 }
-for (i = 0; i <= n; i++)
+for (i = 0; i < n; i++)
 {
-a[i]= array[i];
+a[i] = array[i];
 }
 }
