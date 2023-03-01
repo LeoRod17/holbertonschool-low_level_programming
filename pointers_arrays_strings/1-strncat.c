@@ -5,7 +5,7 @@
  *@dest: - the value of an first array
  *@src: - the value of the second array
  *@n: - the value of the length of the array
- *Return - dest
+ *Return: - dest
  */
 
 char *_strncat(char *dest, char *src, int n)
