@@ -14,6 +14,6 @@ int s;
 
 for (s = n - 1; s >= 0; s--)
 {
-printf("%d", a[i]);
+printf("%d", a[s]);
 }
 }
