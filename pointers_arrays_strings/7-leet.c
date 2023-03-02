@@ -11,12 +11,12 @@ char *leet(char *s)
 int i;
 int a;
 int b;
-char r[] = {'o','l', 'e', 'a', 't'};
+char r[] = {'o', 'l', 'e', 'a', 't'};
 char n[] = {'0', '1', '3', '4', '7'};
 a = strlen(s);
 for (i = 0; i < a; i++)
 {
-for (b = 0; b < 8; b++)
+for (b = 0; b < 6; b++)
 {
 if (s[i] == r[b])
 {
