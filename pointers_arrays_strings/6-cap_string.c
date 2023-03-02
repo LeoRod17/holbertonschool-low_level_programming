@@ -12,7 +12,6 @@ int i;
 int a;
 int b;
 int c;
-int d;
 char r[] = {',', ';', '.', '!', '?',
 '"', '(', ')', '{', '}', ' ', '\t', '\n'};
 a = strlen(s);
