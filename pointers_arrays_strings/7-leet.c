@@ -18,7 +18,7 @@ for (i = 0; i < a; i++)
 {
 for (b = 0; b < 6; b++)
 {
-if (s[i] == r[b])
+if (s[i] == r[b] || s[i] == r[b] - 32)
 {
 s[i] = n[b];
 }
