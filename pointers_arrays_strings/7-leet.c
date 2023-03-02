@@ -16,7 +16,7 @@ char n[] = {'0', '1', '3', '4', '7'};
 a = strlen(s);
 for (i = 0; i < a; i++)
 {
-for (b = 0; b < 6; b++)
+for (b = 0; b < 5; b++)
 {
 if (s[i] == r[b] || s[i] == r[b] - 32)
 {
