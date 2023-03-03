@@ -2,8 +2,8 @@
 #include <string.h>
 /**
  **_strstr - a function that prints after the located array
- *@haystack: - the string to try looking for 
- *@needle: - the pointer 
+ *@haystack: - the string to try looking for
+ *@needle: - the pointer
  *Return: needle
  */
 char *_strstr(char *haystack, char *needle)
@@ -12,13 +12,14 @@ int i;
 int a;
 int b;
 int c;
+int bit = 0;
 int d = 0;
 char *p;
 a = strlen(haystack);
 b = strlen(needle);
 for (i = 0; i < a; i++)
 {
-if (haystack[i] == needle[d])
+if (haystack[i] == needle[d] && bit == 0)
 {
 c = i;
 for (d = 0; d <= b; d++)
@@ -31,6 +32,7 @@ c++;
 if (d == b)
 {
 p = &haystack[i];
+bit = 1;
 }
 }
 }
