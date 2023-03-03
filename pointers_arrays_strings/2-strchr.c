@@ -16,8 +16,7 @@ for(i = 0; i < a; i++)
 {
 if(s[i] == c)
 {
-  r = s[i];
-return (r);
+return (s);
 }
 }
 return 0;
