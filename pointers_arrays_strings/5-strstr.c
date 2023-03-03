@@ -17,20 +17,20 @@ int d;
 char *p;
 a = strlen(haystack);
 b = strlen(needle);
-for (i = 0; i <= a; i++)
+for (i = 0; i < a; i++)
 {
 d = 0;
+c = i;
 if (haystack[i] == needle[d] && bit == 0)
 {
-c = i;
-for (d = 0; d <= b; d++)
+for (d = 0; d < b; d++)
 {
 if (haystack[c] != needle[d])
 {
 break;
 }
 c++;
-if (d == b)
+if (d == b - 1)
 {
 p = &haystack[i];
 bit = 1;
