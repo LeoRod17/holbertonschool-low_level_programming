@@ -4,7 +4,7 @@
  **_strpbrk - a function that returns the array from thea certain point
  *@s: - the pointer of the array to look
  *@accept: - the pointer to the array that looks
- *return: - a pointer
+ *Return: - a pointer
  */
 char *_strpbrk(char *s, char *accept)
 {
