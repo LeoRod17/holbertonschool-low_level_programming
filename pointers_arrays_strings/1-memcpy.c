@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- *
- **_memcpy - a function that copies a pointer memory area
+ * _memcpy - a function that copies a pointer memory area
  *@dest: - the pointer of the array that will be copied
  *@src: - the pointer of the array source
  *@n: - the amount of space that will be replaced
