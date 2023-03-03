@@ -13,7 +13,7 @@ int i;
 int a;
 int b;
 int c;
-unsigned int d;
+unsigned int d = 0;
 a = strlen(s);
 b = strlen(accept);
 for (i = 0; i < a; i++)
@@ -24,9 +24,12 @@ while (s[i] == accept[c])
 {
 d++;
 i++;
+if (s[i] != accept[c])
+{
+return (d);
 }
 }
-break;
+}
 }
 return (d);
 }
