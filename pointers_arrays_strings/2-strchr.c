@@ -10,25 +10,13 @@ char *_strchr(char *s, char c)
 {
 int i;
 int a;
-char *p[100];
-int b;
 
 a = strlen(s);
-if (c == 0)
-{
-return (0);
-}
 for (i = 0; i < a; i++)
 {
 if (s[i] == c)
 {
-for (; i < a; i++)
-{
-p[b] = s[i];
-b++;
-}
-s = p;
-return (s);
+return (s + i);
 }
 }
 return (0);
