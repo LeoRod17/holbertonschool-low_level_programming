@@ -20,11 +20,13 @@ for (i = 0; i < a; i++)
 {
 for (c = 0; c < b; c++)
 {
-if (s[i] == accept[c])
+while (s[i] == accept[c])
 {
 d++;
+i++;
 }
 }
+break;
 }
 return (d);
 }
