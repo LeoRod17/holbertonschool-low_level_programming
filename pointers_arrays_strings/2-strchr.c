@@ -10,13 +10,13 @@ char *_strchr(char *s, char c)
 {
 int i;
 int a;
-a = strlen(s);
-char p[100];
+char *p[100];
 int b;
- 
+
+a = strlen(s);
 if (c == 0)
 {
-  return (0);
+return (0);
 }
 for (i = 0; i < a; i++)
 {
@@ -31,4 +31,5 @@ s = p;
 return (s);
 }
 }
+return (0);
 }
