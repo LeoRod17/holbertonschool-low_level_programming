@@ -10,10 +10,6 @@ char *_strchr(char *s, char c)
 {
 int i;
 int a;
-if(c == 0)
-{
-return (0);
-}
 a = strlen(s);
 for (i = 0; i < a; i++)
 {
@@ -22,5 +18,12 @@ if (s[i] == c)
 return (s + i);
 }
 }
+if (s[== c])
+{
+return (s + i);
+}
+else
+{
 return (0);
+}
 }
