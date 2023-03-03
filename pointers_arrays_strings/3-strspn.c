@@ -25,6 +25,7 @@ if (s[i] == accept[c])
 {
 d++;
 bit = 0;
+break;
 }
 else
 {
