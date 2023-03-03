@@ -34,6 +34,6 @@ d++;
 s = r;
 }
 }
-return (s);
 }
+return (s);
 }
