@@ -13,6 +13,7 @@ int i;
 int a;
 int b;
 int c;
+int bit = 0;
 unsigned int d = 0;
 a = strlen(s);
 b = strlen(accept);
@@ -20,15 +21,19 @@ for (i = 0; i < a; i++)
 {
 for (c = 0; c < b; c++)
 {
-while (s[i] == accept[c])
+if (s[i] == accept[c])
 {
 d++;
-i++;
-if (s[i] != accept[c])
+bit = 0;
+}
+else
+{
+bit = 1;
+}
+}
+if (bit == 1)
 {
 return (d);
-}
-}
 }
 }
 return (d);
