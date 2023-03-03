@@ -13,12 +13,13 @@ int a;
 int b;
 int c;
 int bit = 0;
-int d = 0;
+int d;
 char *p;
 a = strlen(haystack);
 b = strlen(needle);
 for (i = 0; i < a; i++)
 {
+d = 0;
 if (haystack[i] == needle[d] && bit == 0)
 {
 c = i;
