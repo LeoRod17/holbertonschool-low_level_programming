@@ -32,12 +32,15 @@ if (d == b)
 {
 p = &haystack[i];
 }
+}
+}
+}
+if(p = 0)
+{
+return (haystack);
+}
 else
 {
-return (0);
-}
-}
-}
-}
 return (p);
+}
 }
