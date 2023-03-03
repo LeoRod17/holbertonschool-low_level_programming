@@ -17,7 +17,7 @@ int d;
 char *p;
 a = strlen(haystack);
 b = strlen(needle);
-for (i = 0; i < a; i++)
+for (i = 0; i <= a; i++)
 {
 d = 0;
 if (haystack[i] == needle[d] && bit == 0)
