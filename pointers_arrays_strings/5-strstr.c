@@ -35,7 +35,7 @@ p = &haystack[i];
 }
 }
 }
-if(p = 0)
+if(p == 0)
 {
 return (haystack);
 }
