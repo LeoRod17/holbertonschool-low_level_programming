@@ -14,7 +14,7 @@ int b;
 int c;
 int bit = 0;
 int d;
-char *p;
+char *p = NULL;
 a = strlen(haystack);
 b = strlen(needle);
 for (i = 0; i < a; i++)
@@ -29,16 +29,16 @@ if (haystack[c] != needle[d])
 {
 break;
 }
-c++;
 if (d == b - 1)
 {
 p = &haystack[i];
 bit = 1;
 }
+c++;
 }
 }
 }
-if(p == 0)
+if(b == 0)
 {
 return (haystack);
 }
