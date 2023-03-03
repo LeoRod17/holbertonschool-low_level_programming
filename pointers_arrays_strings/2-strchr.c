@@ -10,12 +10,18 @@ char *_strchr(char *s, char c)
 {
 int i;
 int a;
+int b = 0;
 a = strlen(s);
 for (i = 0; i < a; i++)
 {
 if (s[i] == c)
 {
-return (c);
+for (; i < a; i++)
+{
+s[i] = s[b];
+b++;
+}
+return (s);
 }
 }
 return (0);
