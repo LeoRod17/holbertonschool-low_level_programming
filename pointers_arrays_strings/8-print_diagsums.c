@@ -19,16 +19,18 @@ for (j = 0; j <= size; j++)
 if (i == j)
 {
 s = s + a[b];
+b++;
 }
 }
 }
 for (i = 0; i <= size; i++)
 {
-for (j = 0; b < j; b++)
+for (j = 0; b > j; j++)
 {
-if (i == j)
+if (i == b)
 {
 p = p + a[b];
+b--;
 }
 }
 }
