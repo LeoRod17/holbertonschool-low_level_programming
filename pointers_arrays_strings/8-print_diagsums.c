@@ -8,13 +8,24 @@
 void print_diagsums(int *a, int size)
 {
 int i;
+int j;
 int s = 0;
 int p = 0;
-for (i = 0; i <= size; i++)
+int b = size;
+for (i = 0; i < size; i++)
 {
-s = s + a[i];
-p = p + a[size -i -1];
-printf("%d, ", s);
-printf("%d", p);
+for (j = 0; j < b; b--)
+{
+s = s + a[b];
 }
+}
+for (i = 0; i < size; i++)
+{
+for (j = 0; b < j; b++)
+{
+p = p + a[b];
+}
+}
+printf("%d, ", p);
+printf("%d", s);
 }
