@@ -14,7 +14,7 @@ int p = 0;
 int b = size;
 for (i = 0; i < size; i++)
 {
-for (j = 0; j < b; b--)
+for (j = 0; j < b; j++)
 {
 if(i == j)
 {
