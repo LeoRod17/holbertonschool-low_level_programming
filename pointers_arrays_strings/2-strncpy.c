@@ -16,7 +16,7 @@ if (n > a)
 {
 n = a;
 }
-for (i = 0; i < n && src[i] != '\n'; i++)
+for (i = 0; i < n && src[i] != '\0'; i++)
 {
 dest[i] = src[i];
 }
