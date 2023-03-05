@@ -12,18 +12,17 @@ int j;
 int s = 0;
 int p = 0;
 int b = size;
-for (i = 0; i <= size; i++)
+for (i = 0; i < size; i++)
 {
-for (j = 0; j <= size; j++)
+for (j = 0; j < size; j++)
 {
 if (i == j)
 {
-s = s + a[b];
-b++;
+s = s + a[i];
 }
 }
 }
-for (i = 0; i <= size; i++)
+for (i = 0; i < size; i++)
 {
 for (j = 0; b > j; j++)
 {
