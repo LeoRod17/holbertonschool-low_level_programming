@@ -16,13 +16,14 @@ for (i = 0; i <= size; i++)
 {
 for (j = 0; j <= size; j++)
 {
-s = a[i];
-p = a[j];
 if (i == size)
 {
+s = a[i];
+p = a[j];
 r = s + p;
 printf("%d", r);
 }
 }
 }
+_putchar('\t');
 }
