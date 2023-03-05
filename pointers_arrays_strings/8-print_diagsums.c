@@ -12,7 +12,7 @@ int j;
 int s = 0;
 int p = 0;
 int b = size;
-
+int c = size;
 for (i = 0; i < size; i++)
 {
 for (j = 0; j < size; j++)
@@ -27,9 +27,10 @@ for (i = 0; i <= size; i++)
 {
 for (j = 0; b >= j; b--)
 {
-if (i == b)
+if (c == b)
 {
-p = p + a[i];
+p = p + a[b];
+c--;
 }
 }
 }
