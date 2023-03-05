@@ -17,10 +17,10 @@ for (j = 0; j <= size; j++)
 {
 if (j == size)
 {
-s = a[i];
-p = a[j];
+s = a[i][i];
+p = a[i][size -i -1];
 printf("%d, ", s);
-printf("%d", p);
+printf("%d", p)
 }
 }
 }
