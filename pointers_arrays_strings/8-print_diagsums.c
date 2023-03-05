@@ -23,17 +23,13 @@ s = s + a[i];
 }
 }
 }
-for (i = 0; i <= size; i++)
+for (i = 0; i < size; i++)
 {
-for (j = 0; b >= j; b--)
+for (j = 0; j < b; j++)
 {
-if (c == b)
-{
-p = p + a[b];
-c--;
+p = p + a[b - j - 1];
 }
 }
-}
-printf("%d, ", p);
-printf("%d", s);
+printf("%d, ", s);
+printf("%d", p);
 }
