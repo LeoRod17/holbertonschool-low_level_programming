@@ -11,11 +11,12 @@ int i;
 int s;
 int j;
 int p;
+int bit;
 for (i = 0; i <= size; i++)
 {
 for (j = 0; j <= size; j++)
 {
-if (i == size && j == size)
+if (j == size)
 {
 s = a[i];
 p = a[j];
