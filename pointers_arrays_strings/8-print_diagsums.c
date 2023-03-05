@@ -16,14 +16,20 @@ for (i = 0; i < size; i++)
 {
 for (j = 0; j < b; b--)
 {
+if(i == j)
+{
 s = s + a[b];
+}
 }
 }
 for (i = 0; i < size; i++)
 {
 for (j = 0; b < j; b++)
 {
+if (i == j)
+{
 p = p + a[b];
+}
 }
 }
 printf("%d, ", p);
