@@ -2,7 +2,7 @@
 #include <string.h>
 /**
  **_strncpy - a function that copy the two string n times
- *@dest: - the value of the return 
+ *@dest: - the value of the return
  *@src: - the variable of the source
  *@n: - the value of how much to copy
  *Return: dest
@@ -12,9 +12,9 @@ char *_strncpy(char *dest, char *src, int n)
 int i;
 int s;
 int a;
-s = strlen(dest);
+s = strlen(src);
 a = strlen(dest);
-if( n > a)
+if (n > a)
 {
 n = a;
 }
