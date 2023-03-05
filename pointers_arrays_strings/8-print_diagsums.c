@@ -16,14 +16,13 @@ for (i = 0; i <= size; i++)
 {
 for (j = 0; j <= size; j++)
 {
-if (i == size)
+if (i == size && j == size)
 {
 s = a[i];
 p = a[j];
 r = s + p;
-printf("%d", r);
+printf("%d, ", r);
 }
 }
 }
-_putchar('\t');
 }
