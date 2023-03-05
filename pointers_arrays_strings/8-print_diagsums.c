@@ -20,7 +20,7 @@ if (i == size && j == size)
 s = a[i];
 p = a[j];
 printf("%d, ", s);
-printf("%d", p)
+printf("%d", p);
 }
 }
 }
