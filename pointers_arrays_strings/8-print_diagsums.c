@@ -9,7 +9,6 @@ void print_diagsums(int *a, int size)
 {
 int i;
 int s;
-int r;
 int j;
 int p;
 for (i = 0; i <= size; i++)
@@ -20,8 +19,8 @@ if (i == size && j == size)
 {
 s = a[i];
 p = a[j];
-r = s + p;
-printf("%d, ", r);
+printf("%d, ", s);
+printf("%d", p)
 }
 }
 }
