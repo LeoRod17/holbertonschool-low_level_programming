@@ -12,12 +12,11 @@ if (y < 0)
 {
 return (-1);
 }
-if (y >= 0)
+if (y > 0)
 {
 x = x *x;
 y--;
 _pow_recursion(x, y);
-return (x);
 }
-return (0);
+return (x);
 }
