@@ -18,5 +18,8 @@ x = x *x;
 return (_pow_recursion(x, y -1));
 }
 if (y == 0)
+{
 return (x);
+}
+return (0);
 }
