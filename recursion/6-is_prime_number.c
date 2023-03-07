@@ -18,7 +18,7 @@ return (_prime(n, (a + 1), b));
 }
 if (a == n && b != n)
 {
-return (_prime(n, 2, (b + 1)));
+return (_prime(n, 1, (b + 1)));
 }
 return (0);
 }
@@ -31,5 +31,5 @@ return (0);
 
 int is_prime_number(int n)
 {
-return (_prime(n, 2, 2));
+return (_prime(n, 1, 1));
 }
