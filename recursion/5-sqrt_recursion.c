@@ -1,9 +1,6 @@
 #include "main.h"
 
 /**
- *_sqrt_recursion - a function to get the the root of a number
- *@n: - the number to do the natural square root
- *
  *_raiz: - a function to calculate the value of the root
  *@n: - the number to do the natural square root
  *@r: - the value of the result of the root
@@ -21,6 +18,11 @@ return (_raiz(n, r + 1));
 }
 }
 
+/**
+ *_sqrt_recursion - a function to get the square root of an int 
+ *@n: - the number to do the natural square root
+ *Return: an int
+ */
 int _sqrt_recursion(int n)
 {
 if (n <= 0)
