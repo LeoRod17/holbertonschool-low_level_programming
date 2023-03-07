@@ -1,0 +1,11 @@
+#include "main.h"
+
+/**
+ *_sqrt_recursion
+ *@n: - the number to do the natural square root
+ *
+ */
+int _sqrt_recursion(int n)
+{
+
+}
