@@ -1,0 +1,13 @@
+#include "main.h"
+
+/**
+ *main - entry point of the function
+ *@argc: - the count of the arguments 
+ *@argv: - the arguments
+ *
+ */
+
+int main(int argc, char **argv)
+{
+
+}
