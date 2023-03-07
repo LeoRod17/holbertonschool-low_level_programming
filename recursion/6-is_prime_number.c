@@ -16,7 +16,7 @@ if (a < n)
 {
 return (_prime(n, (a + 1), b));
 }
-if (a == n && b != b)
+if (a == n && b != n)
 {
 return (_prime(n, 2, (b + 1)));
 }
