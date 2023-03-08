@@ -14,7 +14,6 @@ for (i = 0; i < argc; i++)
 {
 
 }
-printf("%d", i - 1);
-_putchar('\n');
+printf("%d \n", i - 1);
 return (0);
 }
