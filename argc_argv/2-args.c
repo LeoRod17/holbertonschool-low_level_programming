@@ -2,18 +2,17 @@
 
 /**
  *main - entry point
- *@argc: - the number of arguments that we have
+ *@argc: - number of arguments
  *@argv: - the arguments
- *Return: 0
+ *
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 int i;
 for (i = 0; i < argc; i++)
 {
-
-}
-printf("%d", i - 1);
+puts(argv[i]);
 _putchar('\n');
+}
 return (0);
 }
