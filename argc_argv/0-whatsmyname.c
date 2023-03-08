@@ -2,9 +2,9 @@
 
 /**
  *main - entry point of the function
- *@argc: - the count of the arguments 
+ *@argc: - the count of the arguments
  *@argv: - the arguments
- *
+ *Return: 0
  */
 
 int main(int argc, char *argv[])
