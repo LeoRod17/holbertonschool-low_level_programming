@@ -20,7 +20,7 @@ return (1);
 }
 for (i = 1; i < argc; i++)
 {
-if( i == 1)
+if (i == 1)
 {
 a = atoi(argv[i]);
 }
@@ -29,7 +29,7 @@ if (i == 2)
 b = atoi(argv[i]);
 }
 }
-r = a * b;
+r = a *b;
 printf("%d\n", r);
 return (0);
 }
