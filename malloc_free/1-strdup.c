@@ -11,7 +11,7 @@ int i;
 int s;
 char *p;
 s = strlen(str);
-p = malloc(sizeof(char) * s);
+ p = malloc(sizeof(char) * (s + 1));
 if (p == NULL)
 {
 return (NULL);
