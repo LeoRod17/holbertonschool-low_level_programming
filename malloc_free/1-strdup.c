@@ -11,16 +11,16 @@ int i;
 int s;
 char *p;
 s = strlen(str);
+if (s == 0)
+{
+return (NULL);
+}
 p = malloc(sizeof(char) * s);
 if (p == NULL)
 {
 return (NULL);
 }
-if (str == NULL)
-{
-return (NULL);
-}
-for (i = 0; i <=s; i++)
+for (i = 0; i < s; i++)
 {
 p[i] = str[i];
 }
