@@ -13,7 +13,7 @@ unsigned int i;
 char *s;
 if (size == 0)
 {
-return ("NULL");
+return (NULL);
 }
 s = malloc(sizeof(c) * size);
 if (s == NULL)
