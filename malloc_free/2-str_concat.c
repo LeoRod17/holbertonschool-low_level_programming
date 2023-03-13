@@ -17,7 +17,7 @@ char *point1;
 a = strlen(s1);
 b = strlen(s2);
 c = a + b;
-point1 = malloc(sizeof(char) * (c + 2));
+point1 = malloc(sizeof(char) * (c + 1));
 if (point1 == NULL)
 {
 return (NULL);
