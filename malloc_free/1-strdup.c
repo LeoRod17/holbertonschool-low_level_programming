@@ -14,9 +14,9 @@ s = strlen(str);
 p = malloc(sizeof(char) * s);
 if (p == NULL)
 {
-return (NULL);
+return (0);
 }
-for (i = 0; i < s; i++)
+for (i = 0; i <= s; i++)
 {
 p[i] = str[i];
 }
