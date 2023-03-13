@@ -22,6 +22,10 @@ if (point1 == NULL)
 {
 return (NULL);
 }
+if (s1 == NULL || s2 == NULL)
+{
+return (NULL);
+}
 f = 0;
 for (i = 0; i < a; i++)
 {
