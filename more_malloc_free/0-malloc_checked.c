@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- **malloc_checked: - a function to do malloc without malloc 
+ **malloc_checked - a function to do malloc without malloc
  *@b: - the size of the variable
  *
  *Return: 0
