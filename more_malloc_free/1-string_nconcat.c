@@ -5,7 +5,7 @@
  *@s1: - first string
  *@s2: - second string
  *@n: - how much of the second array will i print
- *Return a pointer
+ *Return: a pointer
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -15,9 +15,9 @@ unsigned int b;
 unsigned int j;
 char *p;
 
-if(s1 == NULL && s2 == NULL)
+if (s1 == NULL && s2 == NULL)
 {
-return(NULL);
+return (NULL);
 }
 a = strlen(s1);
 b = strlen(s2);
