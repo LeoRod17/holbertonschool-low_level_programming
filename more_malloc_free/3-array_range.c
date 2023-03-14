@@ -13,7 +13,7 @@ if (min > max)
 {
 return (NULL);
 }
-a = malloc(sizeof(int) * (max + 1));
+a = malloc(sizeof(int) * (max - min));
 if (a == NULL)
 {
 exit(1);
