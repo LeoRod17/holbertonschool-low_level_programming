@@ -15,6 +15,10 @@ if (nmemb < 1 || size < 1)
 return (NULL);
 }
 p = malloc(size * nmemb);
+if (p == null)
+{
+exit(1);
+}
 for (i = 0; i < nmemb * size; i++)
 {
 p[i] = 0;
