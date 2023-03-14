@@ -14,6 +14,10 @@ int b;
 int c;
 int f;
 char *point1;
+if(s1 == NULL && s2 == NULL)
+{
+return (NULL);
+}
 a = strlen(s1);
 b = strlen(s2);
 c = a + b;
@@ -21,10 +25,6 @@ point1 = malloc(sizeof(char) * (c + 1));
 if (point1 == NULL)
 {
 exit(1);
-}
-if (s1 == NULL || s2 == NULL)
-{
-return (NULL);
 }
 f = 0;
 for (i = 0; i < a; i++)
