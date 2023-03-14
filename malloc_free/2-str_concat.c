@@ -20,7 +20,7 @@ c = a + b;
 point1 = malloc(sizeof(char) * (c + 1));
 if (point1 == NULL)
 {
-return (NULL);
+exit(1);
 }
 if (s1 == NULL || s2 == NULL)
 {

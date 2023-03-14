@@ -14,7 +14,7 @@ s = strlen(str);
 p = malloc(sizeof(char) * (s + 1));
 if (p == NULL)
 {
-return (NULL);
+exit(1);
 }
 for (i = 0; i < s; i++)
 {
