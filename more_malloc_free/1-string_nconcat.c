@@ -28,6 +28,7 @@ n = b;
 p = malloc(sizeof(int) * (a + n));
 if (p == NULL)
 {
+free(p);
 exit(1);
 }
 for (i = 0; i < a; i++)
