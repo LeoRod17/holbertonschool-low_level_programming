@@ -9,15 +9,11 @@
 
 void *malloc_checked(unsigned int b)
 {
-unsigned int i;
 char *a;
-
-if (b == 0)
+a = malloc(b);
+if (a == NULL)
 {
-_putchar(57);
-_putchar(56);
+exit(98);
 }
-for (i = 0; i < b; i++)
-{
-}
+return (a);
 }
