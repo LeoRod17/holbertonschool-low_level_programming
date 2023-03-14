@@ -14,7 +14,7 @@ int b;
 int c;
 int f;
 char *point1;
-if(s1 == NULL && s2 == NULL)
+if (s1 == NULL || s2 == NULL)
 {
 return (NULL);
 }
