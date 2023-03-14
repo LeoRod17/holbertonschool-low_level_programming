@@ -18,7 +18,7 @@ if (a == NULL)
 {
 exit(1);
 }
-for (; min < max; min++)
+for (; min <= max; min++)
 {
 a[min] = min;
 }
