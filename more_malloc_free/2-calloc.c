@@ -15,7 +15,7 @@ if (nmemb < 1 || size < 1)
 return (NULL);
 }
 p = malloc(size * nmemb);
-if (p == null)
+if (p == NULL)
 {
 exit(1);
 }
