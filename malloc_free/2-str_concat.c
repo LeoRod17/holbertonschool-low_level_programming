@@ -20,7 +20,7 @@ return (NULL);
 }
 if (s2 == NULL)
 {
-return (NULL);    
+return (NULL);
 }
 a = strlen(s1);
 b = strlen(s2);
