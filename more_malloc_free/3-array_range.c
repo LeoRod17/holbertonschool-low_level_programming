@@ -16,7 +16,7 @@ if (min > max)
 return (NULL);
 }
 c = max - min;
- a = malloc(sizeof(int) * (c + 4));
+a = malloc(sizeof(int) * c + 4);
 if (a == NULL)
 {
 exit(1);
