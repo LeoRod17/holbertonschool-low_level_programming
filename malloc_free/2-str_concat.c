@@ -16,11 +16,11 @@ int f;
 char *point1;
 if (s1 == NULL)
 {
-return (NULL);
+s1 = "";
 }
 if (s2 == NULL)
 {
-return (NULL);
+s2 = "";
 }
 a = strlen(s1);
 b = strlen(s2);
