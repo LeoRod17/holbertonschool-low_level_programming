@@ -14,9 +14,13 @@ int b;
 int c;
 int f;
 char *point1;
-if (s1 == NULL || s2 == NULL)
+if (s1 == NULL)
 {
 return (NULL);
+}
+if (s2 == NULL)
+{
+return (NULL);    
 }
 a = strlen(s1);
 b = strlen(s2);
