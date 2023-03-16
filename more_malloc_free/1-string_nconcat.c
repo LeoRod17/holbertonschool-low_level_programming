@@ -31,7 +31,7 @@ if (n > b)
 n = b;
 }
 c = a + n;
-p = malloc(sizeof(int) * c);
+p = malloc(sizeof(char) * c);
 if (p == NULL)
 {
 exit(1);
