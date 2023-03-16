@@ -29,7 +29,7 @@ if (n > b)
 {
 n = b;
 }
- p = malloc(sizeof(char) * (a + n) + 1);
+p = malloc(sizeof(char) * (a +n));
 if (p == NULL)
 {
 exit(1);
