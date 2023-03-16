@@ -29,9 +29,10 @@ if (n > b)
 {
 n = b;
 }
-p = malloc(sizeof(char) * (a +n));
+p = malloc(sizeof(char) * (a + n));
 if (p == NULL)
 {
+free(p);
 exit(1);
 }
 for (i = 0; i < a; i++)
