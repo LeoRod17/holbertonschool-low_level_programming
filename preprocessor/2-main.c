@@ -2,11 +2,9 @@
 
 /**
  *main - entry point
- *@argc: - the size of the arguments
- *@argv: - the arguments
  *Return: 0
  */
-int main()
+int main(void)
 {
 printf("%s\n", __FILE__);
 return (0);
