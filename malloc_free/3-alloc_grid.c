@@ -17,7 +17,7 @@ if (width < 1 || height < 1)
 return (NULL);
 }
 c = width * height;
- m = malloc(sizeof(int) * (c + 2));
+m = malloc(sizeof(int) * (c + 3));
 if (m == NULL)
 {
 free(m);
