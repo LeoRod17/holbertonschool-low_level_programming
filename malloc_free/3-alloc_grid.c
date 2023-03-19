@@ -17,10 +17,10 @@ if (width < 1 || height < 1)
 return (NULL);
 }
 c = width * height;
-M = malloc(sizeof(int) * c);
-if (M == NULL)
+ m = malloc(sizeof(int) * (c + 2));
+if (m == NULL)
 {
-free(M);
+free(m);
 return (NULL);
 }
 for (i = 0; i <= height; i++)
