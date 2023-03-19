@@ -13,13 +13,13 @@ int *a;
 int c;
 if (min > max)
 {
-exit(1);
+return (NULL);
 }
 c = max - min;
 a = malloc(sizeof(int) * c + 4);
 if (a == NULL)
 {
-exit(1);
+return (NULL);
 }
 for (i = 0; min < max; i++)
 {
