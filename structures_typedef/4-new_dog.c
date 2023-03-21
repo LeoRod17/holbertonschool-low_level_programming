@@ -1,6 +1,7 @@
 #include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 /**
  *new_dog - a function to add a dog to the sistem
  *@name: - the name of the dog
@@ -21,20 +22,20 @@ if (d == NULL)
 free(d);
 return (NULL);
 }
-name = malloc(sizeof(name));
+name = malloc(sizeof(name) + 1);
 if (name == NULL)
 {
 free(name);
 return (NULL);
 }
-owner = malloc(sizeof(owner));
+owner = malloc(sizeof(owner) + 1);
 if (owner == NULL)
 {
 free(owner);
 return (NULL);
 }
-d->name = name;
+d->name = strcpy(d->name,name);
+d->owner = strcpy(d->owner,owner);
 d->age = age;
-d->owner = owner;
 return (d);
 }
