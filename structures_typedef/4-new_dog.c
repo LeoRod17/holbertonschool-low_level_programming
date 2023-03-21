@@ -22,16 +22,16 @@ if (d == NULL)
 free(d);
 return (NULL);
 }
-name = malloc(sizeof(name) + 1);
-if (name == NULL)
+d->name = malloc(sizeof(name) + 1);
+if (d->name == NULL)
 {
-free(name);
+free(d->name);
 return (NULL);
 }
-owner = malloc(sizeof(owner) + 1);
-if (owner == NULL)
+d->owner = malloc(sizeof(owner) + 1);
+if (d->owner == NULL)
 {
-free(owner);
+free(d->owner);
 return (NULL);
 }
 d->name = strcpy(d->name,name);
