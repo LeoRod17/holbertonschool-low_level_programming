@@ -25,17 +25,18 @@ return (NULL);
 d->name = malloc(sizeof(name) + 1);
 if (d->name == NULL)
 {
-free(d->name);
+free(d);
 return (NULL);
 }
 d->owner = malloc(sizeof(owner) + 1);
 if (d->owner == NULL)
 {
-free(d->owner);
+free(d->name);
+free(d);
 return (NULL);
 }
-d->name = strcpy(d->name,name);
-d->owner = strcpy(d->owner,owner);
+d->name = strcpy(d->name, name);
+d->owner = strcpy(d->owner, owner);
 d->age = age;
 return (d);
 }
