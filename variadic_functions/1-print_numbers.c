@@ -16,15 +16,12 @@ va_start(l, n);
 res = 0;
 for (i = 0; i < n; i++)
 {
-if (separator != NULL)
-{
 res = va_arg(l, int);
 }
 printf("%d", res);
 if (separator != NULL && i != n -1)
 {
 printf("%s", separator);
-}
 }
 va_end(l);
 printf("\n");
