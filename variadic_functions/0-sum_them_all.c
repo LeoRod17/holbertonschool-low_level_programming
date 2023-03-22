@@ -17,12 +17,12 @@ return (0);
 }
 else
 {
-va_start (l, n);
+va_start(l, n);
 for (i = 0; i < n; i++)
 {
-sum += va_arg (l, int);
+sum += va_arg(l, int);
 }
-va_end (l);
+va_end(l);
 return (sum);
 }
 }
