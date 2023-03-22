@@ -23,4 +23,5 @@ if (separator != NULL)
 printf("%s ", separator);
 }
 }
+printf("\n");
 }
