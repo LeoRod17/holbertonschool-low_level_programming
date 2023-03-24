@@ -19,30 +19,32 @@ if (a < 10 && a > 0)
 va_start(l, format);
 i = 0;
 while (i < a)
-{
+{  
 switch (format[i])
 {
 case 'c':
 c = va_arg(l, int);
-printf("%c, ", c);
+printf("%c", c);
 break;
 case 'i':
-printf("%d, ", va_arg(l, int));
+printf("%d", va_arg(l, int));
 break;
 case 'f':
-printf("%f, ", va_arg(l, double));
+printf("%f", va_arg(l, double));
 break;
 case 's':
 res = va_arg(l, char *);
 if (res == NULL)
 res = "(nil)";
-printf("%s, ", res);
+printf("%s", res);
 break;
 default:
 break;
 }
+if(i =! a - 1)
+printf(", ");
 i++;
 }
-printf("\n");
 }
+printf("\n");
 }
