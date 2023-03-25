@@ -13,38 +13,41 @@ int a;
 va_list l;
 char *res;
 char c;
+int b;
 a = strlen(format);
-if (a < 10 && a > 0)
-{
 va_start(l, format);
 i = 0;
 while (i < a)
-{  
+{
+b = 0;
 switch (format[i])
 {
 case 'c':
 c = va_arg(l, int);
 printf("%c", c);
+b = 1;
 break;
 case 'i':
 printf("%d", va_arg(l, int));
+b = 1;
 break;
 case 'f':
 printf("%f", va_arg(l, double));
+b = 1;
 break;
 case 's':
 res = va_arg(l, char *);
 if (res == NULL)
 res = "(nil)";
 printf("%s", res);
-break;
-default:
+b = 1;
 break;
 }
-if(i =! a - 1)
+if (i != a - 1 && b == 1)
+{
 printf(", ");
-i++;
 }
+i++;
 }
 printf("\n");
 }
