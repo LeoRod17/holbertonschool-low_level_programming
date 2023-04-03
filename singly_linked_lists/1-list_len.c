@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- *list_len
+ *list_len - a function that returns the lenght of a list
  *@h: the list of elements
  *Return: the lenght of elements
  */
