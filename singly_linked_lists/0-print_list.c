@@ -24,5 +24,6 @@ size_t print_list(const list_t *h)
 		p++;
 		h = h->next;
 	}
+	printf("\n");
 	return (p);
 }
