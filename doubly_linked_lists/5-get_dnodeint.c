@@ -17,6 +17,11 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 		free(list);
 		return (NULL);
 	}
+	if (index == 0)
+	{
+		printf("(nil)");
+		return (head);
+	}
 	for (i = 0; i != index; i++)
 	{
 		if (i == index)
