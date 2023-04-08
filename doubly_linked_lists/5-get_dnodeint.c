@@ -1,9 +1,10 @@
 #include "lists.h"
 
 /**
- * dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
- *
- *
+ *get_dnodeint_at_index - a function to return the especific node
+ *@head: the list
+ *@index: what node in the list i want
+ *Return: the node i was looking for
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
