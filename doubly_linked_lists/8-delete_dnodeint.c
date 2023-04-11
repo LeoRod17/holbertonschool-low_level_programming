@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- *delete_dnodeint_at_index - a function that deletes the node we want with index
+ *delete_dnodeint_at_index - a function that deletes the node we want
  *@head: the doubly linked list
  *@index: where i am going to erase the node
- *
+ *Return: an int telling if it works or not
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
@@ -15,6 +15,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	{
 		return (-1);
 	}
+
 	res = *head;
 	while (i < index && res != NULL)
 	{
@@ -26,18 +27,11 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		return (-1);
 	}
 	if (*head == res)
-	{
 		*head = res->next;
-	}
-
-	if (res-> next != NULL)
-	{
+	if (res->next != NULL)
 		res->next->prev = res->prev;
-	}
-
 	if (res->prev != NULL)
-	{
 		res->prev->next = res->next;
-	}
+	free(res);
 	return (1);
 }
