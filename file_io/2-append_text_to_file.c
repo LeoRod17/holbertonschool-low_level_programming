@@ -15,9 +15,10 @@ if (!filename)
 if (!text_content)
 	text_content = "";
 
-o = open(filename, O_RDWR | O_CREAT | O_TRUNC | O_APPEND);
+o = open(filename, O_RDWR | O_CREAT | O_APPEND);
 if (o == -1)
 	return (-1);
+
 w = write(o, text_content, strlen(text_content));
 	if (w == -1)
 		return (-1);
