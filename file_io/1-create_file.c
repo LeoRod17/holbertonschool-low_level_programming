@@ -15,16 +15,13 @@ int create_file(const char *filename, char *text_content)
 	if (o == -1)
 		return (-1);
 
-	r = read(o, text_content, a);
+	r = read(o, text_content, a - 1);
 	if (r == -1)
 		return (-1);
 	w = write(o, text_content, r);
 	if (w == -1)
 		return (-1);
 
-	else
-	{
-		close(o);
-		return (1);
-	}
+	close(o);
+	return (1);
 }
