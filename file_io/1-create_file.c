@@ -8,14 +8,13 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int o, r, w, a;
+	int o, r, w;
 
-	a = strlen(text_content);
 	o = open(filename,  O_RDWR | O_CREAT | O_TRUNC, 0600);
 	if (o == -1)
 		return (-1);
 
-	r = read(o, text_content, a - 1);
+	r = read(o, text_content, strlen(text_content));
 	if (r == -1)
 		return (-1);
 	w = write(o, text_content, r);
