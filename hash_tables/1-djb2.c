@@ -17,13 +17,3 @@ unsigned long int hash_djb2(const unsigned char *str)
 	}
 	return (hash);
 }
-
-/**
- *hash_djb2 - a functionto implement the djb2 function
- *@str: the string 
- *Return: a long
- */
-unsigned long int hash_djb2(const unsigned char *str)
-{
-
-}
