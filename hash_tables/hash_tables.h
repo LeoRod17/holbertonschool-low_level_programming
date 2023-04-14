@@ -11,7 +11,7 @@
  *     * The key is unique in the HashTable
  *      * @value: The value corresponding to a key
  *       * @next: A pointer to the next node of the List
- *        */
+ */
 typedef struct hash_node_s
 {
 	char *key;
@@ -24,9 +24,9 @@ typedef struct hash_node_s
  *   *
  *    * @size: The size of the array
  *     * @array: An array of size @size
- *      * Each cell of this array is a pointer to the first node of a linked list,
+ *      * Each cell of this is a pointer to the first node of a linked list,
  *       * because we want our HashTable to use a Chaining collision handling
- *        */
+ */
 typedef struct hash_table_s
 {
 	unsigned long int size;
