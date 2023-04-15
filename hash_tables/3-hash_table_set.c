@@ -31,5 +31,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (ht->array[res] != NULL)
 		return (0);
 	ht->array[res] = h;
+	if (ht->array[res] == NULL)
+		return (0);
+	else
 	return (1);
 }
