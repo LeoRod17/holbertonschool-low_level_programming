@@ -31,7 +31,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	for (i = 0; i < ht->size; i++)
 	{
 		t = (i + res) % ht->size;
-	if (ht->array[t] != NULL)
+	if (ht->array[t] == NULL)
 	{
 	ht->array[t] = h;
 		return (1);
