@@ -11,7 +11,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 
 	hash_node_t *h;
-	unsigned long int res, i, t;
+	unsigned long int res = 0, i, t = 0, j;
 
 	if (ht == NULL)
 		return (0);
@@ -35,6 +35,17 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	{
 	ht->array[t] = h;
 		return (1);
+	}
+	else
+	{
+		for (j = 0; j < ht->size; j++)
+		{
+			if (ht->array[j] == NULL)
+			{
+				ht->array[j] = h;
+				return (1);
+			}
+		}
 	}
 	}
 	return (0);
