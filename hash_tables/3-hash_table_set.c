@@ -25,8 +25,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		free(h);
 		return (0);
 	}
-	h->key = strcpy(h->key, key);
-	h->value = strcpy(h->value, value);
+	h->key = strdup(key);
+	h->value = strdup(value);
 	res = key_index((unsigned char *)key, ht->size);
 	if (res > ht->size)
 	{

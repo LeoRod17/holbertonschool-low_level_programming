@@ -12,9 +12,10 @@ unsigned long int i;
 table = hash_table_create(ht->size);
 if (ht != NULL)
 {
-for (i = 0;ht->array[i] != NULL; i++)
+for (i = 0; ht->array[i] != NULL; i++)
 {
 table->array[i] = ht->array[i];
+free(table->array);
 free(table);
 }
 }
