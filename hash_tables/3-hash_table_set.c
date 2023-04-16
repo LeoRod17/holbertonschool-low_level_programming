@@ -27,14 +27,16 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	h->key = strdup(key);
 	h->value = strdup(value);
 	res = key_index((unsigned char *)key, ht->size);
+	h->next = ht->array[res];
 	for (j = res; ht->array[j] != NULL; j++)
 	{
-		if (strcmp (ht->array[j]->key, key) == 0)
+		if (strcmp(ht->array[j]->key, key) == 0)
 		{
-			free (ht->array[j]->value);
+			free(ht->array[j]->value);
 			ht->array[j]->value = h->value;
 			return (1);
 		}
 	}
+	ht->array[res] = h;
 	return (0);
 }
