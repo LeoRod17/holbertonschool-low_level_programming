@@ -21,7 +21,7 @@ for (i = 0; i < ht->size; i++)
 		{
 			printf(", ");
 		}
-	printf(" '%s': ", node->key);
+	printf("'%s': ", node->key);
 	printf("'%s'", node->value);
 	node = node->next;
 	j = 1;
