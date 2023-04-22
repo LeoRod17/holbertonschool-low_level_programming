@@ -4,12 +4,15 @@
  *_strlen - a function that shows the prints the lenght of the array
  *
  *@s: - the array
- *Return: 0
+ *Return: the size of the string
  */
 
 int _strlen(char *s)
 {
-int a;
-a = strlen(s);
+int a = 0;
+while (s[a] != '\0')
+{
+a++;
+}
 return (a);
 }
